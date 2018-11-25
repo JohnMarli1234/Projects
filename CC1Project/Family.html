@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+body{
+  background-color: black;
+}
+h2{
+ text-align: center;
+ color: white;
+}
+img {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  background-color: black;
+}
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	position: absolute;
+
+}
+</style>
+</head>
+<body>
+
+<h2>Father</h2>
+<img src="5.png" style="width:200px">
+<h2>Lito P. Baltazar</h2>
+<br>
+
+<h2>Mother</h2>
+<img src="6.png" style="width:200px">
+<h2>Marilou Q. Baltazar</h2>
+
+<br>
+
+<h2>Sister</h2>
+<img src="8.png" style="width:200px">
+<h2>Jhyra Marielle Q. Baltazar</h2>
+
+<button onclick="goBack()">Go Back</button>
+
+<p>Notice that clicking on the Back button here will not result in any action, because there is no previous URL in the history list.</p>
+
+<script>
+function goBack() {
+    window.history.back();
+}
+</script>
+
+
+
+
+</body>
+</html>
